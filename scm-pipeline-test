@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("Git Checkout") {
             steps {
-                git 'git@github.com:javahometech/myweb.git'
+               git 'git@github.com:kirankumark1994/repo3.git'
             }
         }
     }
